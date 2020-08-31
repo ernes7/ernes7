@@ -11,6 +11,6 @@ get in contact for future projects, I would love to hear propositions :)
 
 ### Contact me ###
 ---
-![LinkedinLogo](./img/linkedS.png) 
+![](https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png) 
 [Linkedin](https://www.linkedin.com/in/ernesto-martinez7/)
 
