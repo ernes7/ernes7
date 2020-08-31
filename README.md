@@ -1,5 +1,4 @@
-<div><h1>Welcome to my </h1><img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50px"></a>  
-</div>
+<h1>Welcome to my<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50px">  </h1> 
 
 ### About Me ###
 ---
