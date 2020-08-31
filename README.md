@@ -11,6 +11,6 @@ get in contact for future projects, I would love to hear propositions :)
 
 ### Contact me ###
 ---
-<a href="https://media.giphy.com/media/SVNQNgAwQwlMk4HXU9/giphy.gif" width="20px"></a>  
+<a href="https://media.giphy.com/media/SVNQNgAwQwlMk4HXU9/giphy.gif"></a>  
 
 
