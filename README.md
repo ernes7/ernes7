@@ -16,16 +16,18 @@ Right now I’m:
 
 ---
 
-### GitHub Stats
-![GitHub Stats](./metrics.svg)
-
----
-
 ### Contact
 - [LinkedIn](https://www.linkedin.com/in/ernesto-martinez7)  
 - [Personal Website](https://ernestosoftware.com/)  
 
 Always open to connecting and collaborating on interesting projects.
+
+### GitHub Stats
+![GitHub Stats](./metrics.svg)
+
+---
+
+
 
 
 
