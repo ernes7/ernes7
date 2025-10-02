@@ -13,12 +13,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.PAT_1 }}
           user: ernes7
+          filename: metrics.svg
+          committer_branch: master
+          output_action: commit
+          
           repositories_affiliations: owner, collaborator, organization_member
           template: classic
           base: repositories, metadata
@@ -46,10 +48,3 @@ jobs:
           plugin_code: yes
           plugin_code_load: 500
           plugin_code_visibility: all
-          
-          output_action: commit
-          committer_branch: master
-          filename: metrics.svg
-          output_action: commit
-          committer_branch: master        # change to 'main' if that's your default
-          filename: metrics.svg
