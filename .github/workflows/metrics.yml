@@ -1,9 +1,8 @@
 name: Update profile metrics
-
 on:
   schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:         # allows manual run from Actions tab
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
   push:
     paths:
       - ".github/workflows/metrics.yml"
@@ -12,31 +11,45 @@ jobs:
   build-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write        # required to commit metrics.svg back to the repo
+      contents: write
     steps:
       - uses: actions/checkout@v4
-
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          # Your PAT so private repos count
           token: ${{ secrets.PAT_1 }}
-
-          # Profile to analyze
           user: ernes7
           repositories_affiliations: owner, collaborator, organization_member
-
-          # What to render
           template: classic
-          base: header, activity, repositories, metadata
-
-          # Language summary (from both public + private)
+          base: repositories, metadata
+          base_skip: header
+          
           plugin_languages: yes
           plugin_languages_threshold: 0%
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-
-          # Commit the SVG back to the repo
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_limit: 12
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_analysis_timeout: 30
+          
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_from: 500
+          
+          plugin_notable: yes
+          plugin_notable_types: commit, pull_request, issue
+          
+          plugin_lines: yes
+          plugin_lines_sections: repositories
+          
+          plugin_code: yes
+          plugin_code_load: 500
+          plugin_code_visibility: all
+          
+          output_action: commit
+          committer_branch: master
+          filename: metrics.svg
           output_action: commit
           committer_branch: master        # change to 'main' if that's your default
           filename: metrics.svg
