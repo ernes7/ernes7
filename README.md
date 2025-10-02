@@ -18,7 +18,6 @@ Right now I’m:
 
 ### GitHub Stats
 ![GitHub Stats](./metrics.svg)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ernes7&layout=compact&theme=default)
 
 ---
 
