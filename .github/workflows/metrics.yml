@@ -39,7 +39,3 @@ jobs:
           output_action: commit
           committer_branch: master
           filename: metrics.svg
-          
-          output_action: commit
-          committer_branch: master
-          filename: metrics.svg
