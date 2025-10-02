@@ -1,6 +1,6 @@
 # Hi, I’m Ernesto
 
-I’m a full stack software engineer who enjoys building tools that make life easier.  
+I’m a software engineer who enjoys building tools that make life easier.  
 Most of my work is in Django and React, but I also work a lot with AWS, automation, and cloud services to keep projects reliable and scalable.  
 
 Right now I’m:
