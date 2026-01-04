@@ -1,34 +1,13 @@
-# Hi, I’m Ernesto
+# Hi, I'm Ernesto
 
-I’m a software engineer who enjoys building tools that make life easier.  
-Most of my work is in Django and React, but I also work a lot with AWS, automation, and cloud services to keep projects reliable and scalable.  
+Full stack software engineer building tools that make life easier.
 
-Right now I’m:
-- Modernizing legacy systems at Metlife Legal Plans  
-- Building side projects (more on [ernestosoftware.com](https://ernestosoftware.com))  
-- Exploring SaaS ideas and experimenting with new tools  
+I work mostly with **Django**, **React**, and **AWS**.
 
-### What I like working on
-- Automating repetitive tasks with Python ( iykyk )
-- Making sense of messy data  
-- Building clean, reusable React components  
-- Shipping projects to learn by doing  
+### Currently
+- Modernizing legacy systems at Metlife Legal Plans
+- Building side projects at [ernestosoftware.com](https://ernestosoftware.com)
 
----
-
-### Contact
-- [LinkedIn](https://www.linkedin.com/in/ernesto-martinez7)  
-- [Personal Website](https://ernestosoftware.com/)  
-
-Always open to connecting and collaborating on interesting projects.
-
-### GitHub Stats
-![GitHub Stats](./metrics.svg)
-
----
-
-
-
-
-
-
+### Connect
+- [LinkedIn](https://www.linkedin.com/in/ernesto-martinez7)
+- [Website](https://ernestosoftware.com)
